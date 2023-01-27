@@ -1,0 +1,16 @@
+package Oops;
+// Single level Inheritance Example Call.
+
+public class SLInhSbi extends SLInhBank 
+{
+	float getROI()
+	{
+		return 7.75f;
+	}
+	public static void main(String[] args) 
+	{
+		SLInhSbi s1=new SLInhSbi();
+		System.out.println(s1.getROI());
+		s1.display();
+	}
+}

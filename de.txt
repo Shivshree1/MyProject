@@ -1,0 +1,18 @@
+package Oops;
+
+public class MOvrLodCalculator2 
+{
+	public static void main(String str[]) 
+	{
+		System.out.println("long add method: 1");
+	}
+	public void add(int a)
+	{
+		System.out.println("int add method: 2");
+
+     }
+	
+}
+	
+
+

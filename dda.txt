@@ -1,0 +1,19 @@
+package Oops;
+
+public class StudentEncapsulationCall 
+{
+	public static void main(String[] args)
+	{
+		StudentEncapsulation s1=new StudentEncapsulation();
+		s1.setRollNo(10);
+		s1.setName("Smith");
+		s1.setAddress("Pune");
+		s1.setContact(987654321);
+		System.out.println("Name: "+s1.getName()+
+				", RollNo : "+s1.getRollNo()+
+				", Address: "+s1.getAddress()+
+				", Contact: "+s1.getContact());
+		
+	}
+
+}
