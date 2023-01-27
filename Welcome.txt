@@ -5,6 +5,8 @@ public class Welcome
 	{
 		System.out.print("Welcome to java");
 
+                System.out.println("Welcome Sister");
+
 	}
 
 }
