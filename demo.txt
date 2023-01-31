@@ -14,6 +14,8 @@ public class AppearsOnce
 		}
 		System.out.println("Single not repeated element is "+res);
 		
+System.out.println("Single not repeated element is "+res);
+
 	}
 
 }
